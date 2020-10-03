@@ -17,3 +17,14 @@
     }
   }
 }
+
+@media only screen and (max-width: 640px) {
+  .collection-page {
+    .items {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+    }
+  }
+}

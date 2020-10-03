@@ -4,3 +4,9 @@
   align-items: center;
   padding: 20px 60px;
 }
+
+@media only screen and (max-width: 640px) {
+  .homepage {
+    padding: 0;
+  }
+}

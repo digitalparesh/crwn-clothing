@@ -49,3 +49,10 @@
     }
   }
 }
+
+@media only screen and (max-width: 640px) {
+  .collection-item {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}

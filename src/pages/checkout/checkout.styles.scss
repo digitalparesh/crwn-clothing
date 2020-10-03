@@ -29,3 +29,23 @@
     font-size: 36px;
   }
 }
+
+@media only screen and (max-width: 640px) {
+  .checkout-page {
+    width: 100%;
+    margin: 0;
+    font-size: 12px;
+
+    .checkout-header {
+      padding: 10px 0;
+      .header-block {
+        text-transform: capitalize;
+        width: 20%;
+
+        &:last-child {
+          width: 15%;
+        }
+      }
+    }
+  }
+}

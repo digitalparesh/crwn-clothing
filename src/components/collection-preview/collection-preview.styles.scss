@@ -14,3 +14,14 @@
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 640px) {
+  .collection-preview {
+    .preview {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+    }
+  }
+}

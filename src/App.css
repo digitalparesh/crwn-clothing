@@ -1,5 +1,4 @@
 body {
-  /* font-family: "Open Sans Condensed"; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   /* margin: 10px; */
   margin: 20px 60px;
@@ -12,4 +11,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@media only screen and (max-width: 568px) {
+  body {
+    margin: 10px;
+  }
 }

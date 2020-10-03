@@ -1,0 +1,27 @@
+.contact-page {
+  margin: auto;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  span {
+    text-align: center;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .contact-page {
+    width: 80vw;
+    margin: auto;
+  }
+}

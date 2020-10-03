@@ -6,4 +6,16 @@
   .title {
     margin: 10px 0;
   }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .sign-up {
+    margin: auto;
+    width: 80vw;
+  }
 }
